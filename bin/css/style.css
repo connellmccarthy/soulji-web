@@ -279,3 +279,15 @@ button:hover {
 .content a:hover {
 	color:rgba(222,220,163,1);
 }
+@media only screen and (max-width: 768px) {
+	.content {
+		width:80%;
+		bottom:10px;
+	}
+	.logo {
+		top:15px;
+	}
+	.center-content {
+		width:80%;
+	}
+}
