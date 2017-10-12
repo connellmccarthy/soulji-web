@@ -6,9 +6,6 @@ $(document).ready(function() {
 		});
 	}else {window.location='/home';}
 	$('#txt-email').focus();
-	console.log('Ready');
-
-
 	$('#unlock').click(function() {
 		if (!validateEmail($('#txt-email').val())) {
 			$('.error').fadeOut('slow');
@@ -20,7 +17,6 @@ $(document).ready(function() {
 			submit();
 		}
 	});
-
 	$('#no-target').on('load', function() {
 		document.cookie = "amp=true";
     	window.location='/home';

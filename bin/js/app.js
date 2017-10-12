@@ -4,7 +4,6 @@ function submit() {
     var first_field = 'entry.1955357250=';
     var second_field = '&entry.403956790=';
     var submitRef = '&submit=Submit';
-
     $.getJSON("http://freegeoip.net/json/").done(function(e) {
 		var user_city = e.city;
     	var user_country = e.country_name;
@@ -34,7 +33,6 @@ function checkValidation() {
     }
     return "";
 }
-
 function startover() {
     document.cookie = "amp=";
 }
