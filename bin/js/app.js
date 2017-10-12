@@ -34,5 +34,5 @@ function checkValidation() {
     return "";
 }
 function startover() {
-    document.cookie = "amp=";
+    document.cookie = "amp=; path=/";
 }

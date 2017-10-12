@@ -18,7 +18,7 @@ $(document).ready(function() {
 		}
 	});
 	$('#no-target').on('load', function() {
-		document.cookie = "amp=true";
+		document.cookie = "amp=true; path=/";
     	window.location='/home';
 	});
 });
